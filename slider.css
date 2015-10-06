@@ -1,0 +1,28 @@
+#dates {
+    position:absolute;
+    width:100%;
+    left:0;
+    top:100px;
+    height:15px;    
+}
+
+#dates div {
+    float: left;
+    position: absolute;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#dates div.active {
+    color: rgb(150,20,20);
+}
+
+.rotate {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
